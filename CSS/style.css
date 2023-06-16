@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+html *,
+html *::after,
+html *::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+html ul {
+  list-style: none;
+}
+html a {
+  text-decoration: none;
+  color: inherit;
+}
+html body {
+  font-family: "Inter", sans-serif;
+  font-style: 16px;
+  font-weight: 400;
+}
+html .container {
+  background-color: grey;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+html .container .header__inner {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+html .container .header__inner .menu__list {
+  display: flex;
+  gap: 35px;
+}
+html .container .header__inner .menu__list-item .menu__list-link {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
