@@ -42,6 +42,15 @@ body {
   background-color: #151515;
 }
 
+.header-main {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+
 .container {
   max-width: 1220px;
   margin: 0 auto;
@@ -105,4 +114,68 @@ body {
 
 .main {
   flex-grow: 1;
+}
+
+.top {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  padding-top: 250px;
+  padding-bottom: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.title {
+  padding-bottom: 40px;
+  font-size: 96px;
+  font-weight: 700;
+}
+
+.top__link {
+  display: inline-block;
+  padding: 23px;
+  max-width: 430px;
+  width: 100%;
+  text-transform: uppercase;
+  background-color: #151515;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.swiper::after {
+  content: "";
+  background: rgba(21, 21, 21, 0.3);
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.swiper-slide {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-pagination-bullet {
+  border-radius: 0;
+  opacity: 1;
+  margin: 0 15px !important;
+  width: 120px;
+  height: 3px;
+  background-color: #151515;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 50px;
+}
+
+.swiper-pagination-bullet-active {
+  height: 6px;
+  background-color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
